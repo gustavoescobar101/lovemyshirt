@@ -1,0 +1,605 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	
+}
+
+/*body*/
+
+.container{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+.logo {
+		width: 200px;
+		margin-left:  30px;
+
+		margin-top: 15px;
+
+}
+
+
+.contenedor-principal{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-flow: wrap;
+	background-color: black;
+		
+
+}
+
+
+.contenedor-botones{
+	display: flex;
+	margin: 30px;
+	margin-right: 100px; 
+	margin-top: 25px;
+	
+}
+
+.lista{
+	margin-left: 40px;
+	list-style-type: none;
+}
+
+
+.contenedor-logo{
+	margin-left: 30px;
+	
+}
+
+.menu{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 15px;
+	
+}
+
+.menu:hover{
+	color: #82c8e2;
+	
+}
+
+/*MAIN*/
+
+.hero-image{
+	background-image: url(img/imagen-portada2.jpg);
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: center;
+	align-items: center;
+
+	
+}
+
+.contenedor-oferta{
+	position: absolute;
+	top: 75%;
+	left:10%;
+	transform: translate(-10%, -80%);
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.contenedor-oferta h1{
+	font-size: 65px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif ;
+}
+
+.contenedor-oferta h1 span{
+	border: 10px solid white;
+	background: #41a3c8 ;
+	padding: 6px 14px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif ;
+	width: 100%;
+}
+
+.des{
+	margin: 30px;
+	display: block;
+	color: white;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 30px;
+}
+
+.btn{
+	text-decoration: none;
+	background: #41a3c8;
+	color: white;
+	font-family: 'Roboto', sans-serif ;
+	margin: 60px;
+	padding: 20px;
+
+}
+.redes-main{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	
+}
+
+.redes-btn{
+	margin:10px;
+}
+
+.btn:hover{
+	background: rgba(0, 0, 0, 0.2);
+
+}
+
+
+/*SECTION*/
+
+.contenedor-cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-flow: wrap;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.cards-1{
+	background-image: url(img/remera.png);
+	width: 300px;
+	height: 400px;
+	
+}
+
+.cards-2{
+	background-image: url(img/buzo.png);
+	width: 300px;
+	height: 400px;
+	
+}
+.cards-3{
+	background-image: url(img/musculosa.png);
+	width: 300px;
+	height: 400px;
+	
+}
+
+.cards-4{
+	background-image: url(img/gorra.png);
+	width: 300px;
+	height: 400px;
+	
+}
+
+.btn-cards{
+	background: white ;
+	width: 80%;
+	padding: 10px;
+	color: #41a3c8;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif ;
+	position: relative;
+	top: 80%;
+	left: 10%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-cards:hover{
+	background: #41a3c8;
+	color: white;
+	transition:  all 0.5s ;
+}
+
+/*second image*/
+
+.second-image{
+	background-image: url(img/perchero.jpg);
+	overflow: hidden;
+	width: 95%;
+	height: 350px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.titulo-bl{
+	font-family: 'Roboto', sans-serif ;
+	color: #41a3c8;
+	font-size: 20px;
+	text-align: center;
+}
+
+.form-input{
+	width: 300px;
+	margin-left: 10px;
+	border: none;
+}
+
+.btn-submit{
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+	border: none; 
+	font-size: : 8pt; 
+	font-family: 'Roboto', sans-serif ; 
+    background-color: #41a3c8;
+    padding: 3px 12px;
+}
+
+
+/*SECTION 2*/
+
+.info {
+	background: #dadada;
+	width: 95%;
+	margin:  0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-flow: wrap;
+	padding-bottom: 50px;
+	
+
+}
+
+.contenedor-icon{
+	width: 250px;
+	align-items:  center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+
+}
+
+.titulo{
+	font-family: 'Roboto', sans-serif ;
+	
+	color: #41a3c8;
+	font-size: 18px;
+	text-align: center;
+}
+
+.titulo:hover{
+	/*color: grey;*/
+}
+
+.parrafo{
+	margin-top: 10px ;
+	margin-right: 10px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 14px;
+	color: grey;
+
+}
+
+.icon{
+	margin-top: 10px;
+}
+
+
+
+
+/*CONTENEDOR SHOP*/
+
+.contenedor-shop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-flow: wrap;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+.shop-1{
+	background-image: url(img/01.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+
+.shop-2{
+	background-image: url(img/02.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+.shop-3{
+	background-image: url(img/03.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+
+.shop-4{
+	background-image: url(img/04.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+
+.shop-5{
+	background-image: url(img/05.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+.shop-6{
+	background-image: url(img/06.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+.shop-7{
+	background-image: url(img/07.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+.shop-8{
+	background-image: url(img/08.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-position: center;
+		
+}
+
+
+.btn-shop{
+	background: white ;
+	width: 80%;
+	padding: 10px;
+	color: #41a3c8;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif ;
+	position: relative;
+	top: 80%;
+	left: 10%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-shop:hover{
+	background: #41a3c8;
+	color: white;
+	transition:  all 0.5s ;
+}
+
+.info-contenedor{
+	background: white ;
+	width: 100%;
+	/*padding: 10px;*/
+	color: grey;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif ;
+	position: relative;
+	top: 92%;
+	left: 0%;
+	text-align: center;
+	
+}
+
+
+
+
+/*FOOTER*/
+
+.contenedor-footer {
+	/*margin-top: 35px;*/
+	background: #dadada;
+	width: 95%;
+	margin:  0 auto;
+	
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-flow: wrap;
+	padding-top:  20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	
+
+
+	
+}
+
+.navegacion{
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-right: 10px;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 14px;
+	color: grey;
+
+}	
+
+.redes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+/*FOOTER 2*/
+.contenedor-copy {
+	
+	background: #dadada;
+	width: 95%;
+	
+	margin:  0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-top: 10px;
+	padding: 10px;
+
+}	
+	
+.copyright{
+	font-family: 'Roboto', sans-serif ;
+	font-size: 14px;
+	color: grey;
+	margin-top: 10px;
+	text-align: center;
+
+}	
+
+
+
+
+@media (max-width: 768px) {
+	.cards-1{
+		width: 80%
+		margin:0 ;
+	}
+
+	.contenedor-oferta{
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		margin-left: 30px;
+	}
+
+
+.contenedor-icon{
+	margin: 0 auto;
+}
+
+.contenedor-cards{
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-principal{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex-flow: wrap;
+	background-color: black;
+		
+
+}
+
+.contenedor-botones{
+	display: flex;
+	margin: 20px;
+	flex-direction: column;
+	align-items: center;
+
+
+}	
+
+.lista{
+	margin: 20px;
+	list-style-type: none;
+	
+}	
+
+.menu:hover{
+	color: #82c8e2;
+
+}
+
+
+.contenedor-logo{
+	margin-left: 5px;
+	
+}
+
+.logo {
+		width: 200px;
+		margin-left:  30px;
+
+		margin-top: 15px;
+
+}
+
+.menu{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Roboto', sans-serif ;
+	font-size: 15px;
+	
+}
+
+.contenedor-shop{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+
+	
